@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" href="bootstrap.min.css">
+
+	<title>Document</title>
+	<style>
+		.chess{
+			background: url(chess.png) no-repeat center  !important; 
+			background-color: transparent !important;
+			-webkit-background-size: contain;
+			background-size:contain;
+		}
+
+		.chessrow:hover{
+			background-color: #42f4df !important;
+			
+		}
+		.green {
+			background:green;
+		}
+
+	</style>
+</head>
+<body>
+	<center>
+		<button style="margin:5px"  id ="horse">Запустить коня</button>
+		<button style="margin:5px" id ="clear_button">Очистить доску</button>
+		<button style="margin:5px" id="horse_go">Выставить коня</button>
+	</center>
+   <div id="board" style="margin:5px 0 0 calc( ( 100% - 560px ) / 2);width: 560px;cursor: pointer;"></div>
+
+   	
+
+   
+
+	<script src="index.js"></script>
+	
+</body>
+</html>
